@@ -1,0 +1,127 @@
+/*
+ * Reset CSS
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    font-family: sans-serif;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+ * END Reset CSS
+ */
+
+body {
+    background-color: #f1f1f1;
+}
+.header {
+    background-color: #3e454b; 
+    position: fixed;
+    height: 60px;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.header-border {
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    height: 60px;
+    width: 200px;
+}
+.header-img {
+    padding: 0.6em 0.3em 0.2em 0.2em;
+    width: 190px;
+}
+.side-nav {
+    background-color: #2c3136;
+    box-shadow: inset 0px 0px 65px -5px rgba(0,0,0,0.75);
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 200px;
+}
+.menu-list {
+    color: #fff;
+    text-align: left;
+    margin-top: 7em;
+}
+.menu-list ul li {
+    padding: 1em;
+}
+.menu-list ul li:hover {
+    background-color: #33383e;
+    cursor: pointer;
+}
+.active {
+    background-color: #33383e;
+    border-left: 5px solid #c89a58
+}
+.main-content {
+    position: absolute;
+    left: 200px;
+    margin-top: 60px;
+}
+.chart-row {
+    display: block;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+}
+.metric-section {
+    display: inline-block;
+    margin: 0.5em 1em 0;
+}
+.cmu-table,
+.cmu-table tr,
+.cmu-table tr td,
+.cmu-table tr th {
+    border: solid thin #000;
+    font-size: 13px;
+}
+.cmu-table th {
+    background-color: #CCCCCC;
+}
+.cmu-table th,
+.cmu-table td {
+    padding: 4px;
+}
+.cmu-table {
+    background-color: #fff;
+}
